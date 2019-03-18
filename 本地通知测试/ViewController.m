@@ -19,11 +19,12 @@
     [super viewDidLoad];
     
     [LocalNotificationHelper CreateNotificationWithTitle:@"测试" FireTime:@"2017-06-16 15:26:50" Body:@"测试用类" UserInfo:@{@"name":@"guang"}];
-    
+    NSLog(@"test1");
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
 }
 
